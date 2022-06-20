@@ -77,4 +77,4 @@ def export_gif(target_folder):
     for filename in image_files:
         images.append(imageio.imread(filename))
 
-    imageio.mimsave('result.gif', images)
+    imageio.mimsave('resources/output-result.gif', images)
